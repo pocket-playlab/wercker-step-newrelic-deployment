@@ -1,0 +1,13 @@
+name: newrelic-deployment
+version: 0.0.1
+description: Send a deployment event to NewRelic
+properties:
+  api_key:
+    type: string
+    required: true
+  app_name:
+    type: string
+    required: true
+  revision:
+    type: string
+    required: false
