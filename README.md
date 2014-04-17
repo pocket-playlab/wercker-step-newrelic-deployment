@@ -10,7 +10,7 @@ Example
 Add NEWRELIC_API_KEY as deploy target or application environment variable.
 
 ```
-    - newrelic-deployment:
+    - rafaelverger/newrelic-deployment:
         api_key: $NEWRELIC_API_KEY
         app_name: MyApp
         revision: **OPTIONAL** // default: '$WERCKER_GIT_BRANCH/$WERCKER_GIT_COMMIT by $WERCKER_STARTED_BY'
